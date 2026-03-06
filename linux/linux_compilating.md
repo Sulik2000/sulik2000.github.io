@@ -47,3 +47,5 @@ Then you'll successfully get Linux panic cause your SD-card lacks a rootfs parti
 ## Problems with SD-card
 
 I after launching Linux did set up NFS rootfs by BusyBox and then Linux successfully launched. But when I tried to launch with rootfs on SD-card, Linux gave similar errors, and I don't know how to figure out this. I'm sure that problem is in Device Tree for OP-TEE or Linux, but I don't know what exact is.
+
+PS: I figured this out [here](./pmc_fix.md)
